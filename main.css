@@ -272,4 +272,11 @@ gap: 40px;
   input{
     width: 100%;
   }
+  .header__title{
+    margin: auto;
+    font-size: 48px;
+    font-weight: 700;
+    color: gold;
+  max-width: 500px;
+  }
 } 
