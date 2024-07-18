@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
+}
+.container{
+  text-align: center;
+  max-width: 1548px;
+  width: 100%;
+  padding: 0 18px;
+  margin: 0 auto;
+}
+span, a, li{
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+button{
+  cursor: pointer;
+  font-size: 25px;
+  padding: 5px 50px;
+  background-color: gold;
+  border: none;
+  font-weight: 600;
+  color: red ;
+  border-radius: 5px;
+  align-items: center;
+  transition: 1s;
+  
+}
+button:active{
+  transform: scale(.1);
+}
+
+.header{
+  padding: 20px 0;
+}
+
+.header__title{
+  margin: auto;
+  font-size: 56px;
+  font-weight: 700;
+  color: gold;
+max-width: 500px;
+}
+.header__wrapper{
+  display: flex;
+  overflow: auto;
+  margin: -20px 0 40px 0;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.card{
+    width: calc(24% - 30px);
+    display: flex;
+    padding:0 0 40px 0;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    box-shadow: 0 0 20px #0004;
+    gap: 10px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+  transition: 1s;
+
+  }
+  .card:hover{
+  transition: 2s;
+  transform: scale(1.1);
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner {
+  margin-top: 5%;
+  width: 450px;
+  height: 350px;
+  position: relative;
+  animation: rotation 0.75s linear infinite;
+  border-radius: 100em;
+}
+
+.path {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 20;
+  stroke-linecap: round;
+}
+
+@keyframes rotation {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.text{
+  font-size: 55px;
+  font-weight: 800;
+  margin-bottom: 50px;
+  color: gold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.desc{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 10px;
+}
+
+
+.title{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+
+.price{
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.category{
+  font-size: 28px;
+  margin-top: 5px;
+  font-weight: 700;
+}
+
+.description{
+  font-size: 18px;
+  margin: 1px 0;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.629);
+}
+
+
+
+
+@media ( max-width:1500px){
+  .wrapper{
+gap: 25px;
+}
+  .card{
+    width: calc(33.3% - 15px);
+  }
+} 
+
+
+
+
+
+@media ( max-width:1100px){
+  .wrapper{
+gap: 20px;
+}
+  .card{
+    width: calc(50% - 10px);
+  }
+} 
+
+
+
+
+
+@media ( max-width:680px){
+  .wrapper{
+gap: 30px;
+}
+  .card{
+    width: 100%;
+  }
+} 
+
+.royxat{
+  margin: 30px 0 50px 0;
+  text-align: center;
+  font-size: 65px;
+  font-weight: 700;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+.box{
+  width: 60%; 
+text-align: left;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.693);
+  padding: 30px 20px;
+margin: auto;
+}
+.bag{
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height:50px;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+input{
+  height: 50%;
+  width: 50%;
+  padding: 5px 0;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.hr{
+  width: 100%;
+  background-color: black;
+  height: 2px;
+  margin-top: 1px;
+  
+}
+.btnbag{
+  width: 100%;
+  text-align: center;
+}
+.btnn{
+  margin-top: 40px;
+}
+
+
+.collection{
+  margin-top: 40px;
+  text-align: center;
+}

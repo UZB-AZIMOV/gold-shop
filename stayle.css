@@ -1,0 +1,107 @@
+.meet {
+  padding: 100px 0;
+  background-color: #004047;
+  color: white;
+}
+.meet__tilte {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.meet__wrapper {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.meet__card {
+  width: calc(33.3% - 20px);
+  padding: 30px 50px 0 50px;
+  height: 270px;
+  background-color: #012F34;
+  text-align: center;
+  margin-top: 70px;
+  transition: 0.9s;
+}
+.meet__card:hover {
+  border-radius: 20px;
+  background-color: #023d3c;
+  transform: scale(1.1);
+}
+.meet__btn {
+  padding: 10px 15px;
+  font-size: 30px;
+  font-weight: 500;
+  border: none;
+  background-color: #F67E7E;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: -30px;
+}
+.meet__btn:hover {
+  background-color: #79C8C7;
+}
+.meet__text {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 30px;
+  color: #79C8C7;
+}
+.meet__item {
+  margin-bottom: 32px;
+}
+
+.reg {
+  margin-top: -20px;
+  margin-bottom: 55px;
+}
+
+.meet__btn:active {
+  transform: scale(0.9);
+}
+
+.toptext {
+  margin-top: -5px;
+}
+
+.fa-twitter {
+  font-size: 50px;
+}
+
+@media (max-width: 900px) {
+  .meet {
+    text-align: center;
+  }
+  .meet__wrapper {
+    gap: 20px;
+  }
+  .meet__card {
+    width: calc(50% - 10px);
+    padding: 30px 40px 0 40px;
+  }
+  .reg {
+    margin-top: -20px;
+    margin-bottom: 65px;
+  }
+  .fa-twitter {
+    font-size: 40px;
+  }
+}
+@media (max-width: 900px) {
+  .meet {
+    text-align: center;
+  }
+  .meet__tilte {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .meet__wrapper {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .meet__card {
+    width: 100%;
+    padding: 30px 10px 0 10px;
+  }
+}/*# sourceMappingURL=stayle.css.map */
