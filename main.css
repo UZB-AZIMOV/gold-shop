@@ -166,42 +166,6 @@ max-width: 500px;
 
 
 
-
-@media ( max-width:1500px){
-  .wrapper{
-gap: 25px;
-}
-  .card{
-    width: calc(33.3% - 15px);
-  }
-} 
-
-
-
-
-
-@media ( max-width:1100px){
-  .wrapper{
-gap: 20px;
-}
-  .card{
-    width: calc(50% - 10px);
-  }
-} 
-
-
-
-
-
-@media ( max-width:850px){
-  .wrapper{
-gap: 30px;
-}
-  .card{
-    width: 100%;
-  }
-} 
-
 .royxat{
   margin: 30px 0 50px 0;
   text-align: center;
@@ -265,3 +229,47 @@ input{
   margin-top: 40px;
   text-align: center;
 }
+
+
+
+@media ( max-width:1500px){
+  .wrapper{
+gap: 25px;
+}
+  .card{
+    width: calc(33.3% - 15px);
+  }
+} 
+
+
+
+
+
+@media ( max-width:1100px){
+  .wrapper{
+gap: 20px;
+}
+  .card{
+    width: calc(50% - 10px);
+  }
+} 
+
+
+
+
+
+@media ( max-width:850px){
+  .wrapper{
+gap: 40px;
+}
+  .card{
+    width: 100%;
+  }
+  .box{
+    width: 80%; 
+    
+  }
+  input{
+    width: 100%;
+  }
+} 
