@@ -51,6 +51,7 @@ max-width: 500px;
   display: flex;
   overflow: auto;
   margin: -20px 0 40px 0;
+
 }
 
 ::-webkit-scrollbar{
@@ -274,9 +275,12 @@ gap: 40px;
   }
   .header__title{
     margin: auto;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 600;
     color: gold;
-  width: 90%;
+  width: 95%;
+  }
+  .main{
+    padding: 20px 5px;
   }
 } 
